@@ -1,13 +1,13 @@
 <svg width="100" height="100" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
   <g clip-path="url(#clip0_71_50)">
     <!-- Black background -->
-    <rect width="100" height="100" rx="10" fill="black"/>
+    <rect width="100" height="100" rx="10" fill="white"/>
     
     <!-- White 'r' letter -->
-    <text x="20" y="80" font-family="poppins" font-size="80" fill="white">R</text>
+    <text x="8" y="80" font-family="poppins" font-size="90" font-weight="900" fill="black">R</text>
     
     <!-- Orange period -->
-    <rect width = "10" height="10" x="71" y="71" fill="orange"/>
+    <rect width = "20" height="20" x="73" y="69" fill="darkorange"/>
   </g>
   <defs>
     <clipPath id="clip0_71_50">
