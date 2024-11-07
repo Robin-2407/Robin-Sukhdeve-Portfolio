@@ -240,6 +240,7 @@ body.active {
   color: var(--color-secondary);
   line-height: 1.8;
   margin-bottom: 30px;
+  text-align: justify;
 }
 
 .tooltip {
@@ -563,6 +564,11 @@ main {
   margin-bottom: 80px;
 }
 
+.about img {
+  border-radius: 10%;
+  max-height: 500px;
+}
+
 .about .btn {
   max-width: unset;
   width: 100%;
@@ -571,6 +577,7 @@ main {
 .about .btn-secondary {
   margin-bottom: 10px;
 }
+
 
 /*-----------------------------------*\
  * #SKILLS
@@ -1084,6 +1091,7 @@ textarea.input-field {
   .hero img {
     height: 100%;
     width: auto;
+    margin-top: 1rem;
     margin-inline: auto;
   }
 
@@ -1165,7 +1173,7 @@ textarea.input-field {
   }
 
   .stats-list {
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
   }
 
   .stats-card {
