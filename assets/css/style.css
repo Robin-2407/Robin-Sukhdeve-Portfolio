@@ -562,11 +562,15 @@ main {
   max-width: 400px;
   margin-inline: auto;
   margin-bottom: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .about img {
   border-radius: 10%;
   max-height: 500px;
+  width: 89%;
 }
 
 .about .btn {
@@ -697,6 +701,7 @@ main {
   font-size: 1rem;
   max-width: 600px;
   margin-inline: auto;
+  text-align: justify;
 }
 
 .education-list {
@@ -805,6 +810,14 @@ main {
 
   .course-list {
     gap: 6px;
+  }
+
+  .education-card {
+    margin-left: 0;
+  }
+
+  .timeline {
+    margin-left: 0.5rem;
   }
 }
 
@@ -1069,6 +1082,7 @@ main {
 @media (max-width: 768px) {
   .timeline {
     padding-left: 30px;
+    margin-left: 0.5rem;
   }
 
   .timeline-info {
@@ -1346,7 +1360,7 @@ textarea.input-field {
 
   .btn-group {
     display: flex;
-    justify-content: flex-start;
+    justify-content: center;
     align-items: center;
     gap: 20px;
   }
