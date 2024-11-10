@@ -952,6 +952,7 @@ main {
   max-width: 1200px;
   margin: 0 auto;
   padding-left: 50px;
+  margin-left: 2.5rem;
 }
 
 .timeline::before {
