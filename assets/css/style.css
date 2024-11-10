@@ -674,6 +674,176 @@ main {
 }
 
 /*-----------------------------------*/
+/* EDUCATION */
+/*-----------------------------------*/
+.education {
+  padding-block: var(--section-padding);
+}
+
+.education-content {
+  margin-bottom: 50px;
+}
+
+.section-title {
+  color: var(--color-primary);
+  font-size: 2rem;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.section-text {
+  color: var(--color-secondary);
+  text-align: center;
+  font-size: 1rem;
+  max-width: 600px;
+  margin-inline: auto;
+}
+
+.education-list {
+  display: grid;
+  gap: 30px;
+}
+
+.education-card {
+  background: var(--bg-secondary);
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 20px;
+  padding: 25px;
+  border-radius: var(--radius-12);
+  box-shadow: var(--shadow-1);
+  transition: var(--transition-1);
+  margin-left: 2.5rem;
+}
+
+.education-card:is(:hover, :focus) {
+  transform: translateY(-5px);
+}
+
+.edu-content {
+  flex: 1;
+}
+
+.education-card .card-title {
+  color: var(--raw-seinna);
+  font-size: 1.2rem;
+  margin-bottom: 8px;
+}
+
+.education-card .card-title strong {
+  display: block;
+  color: var(--color-primary);
+  font-size: 0.9rem;
+  font-weight: 500;
+  line-height: 1.3;
+  margin-top: 5px;
+}
+
+.edu-details .grade {
+  color: var(--color-secondary);
+  font-size: 0.9rem;
+  margin-bottom: 15px;
+  display: block;
+}
+
+.coursework {
+  margin-top: 15px;
+}
+
+.coursework-title {
+  color: var(--color-primary);
+  font-size: 0.9rem;
+  margin-bottom: 8px;
+  font-weight: 500;
+}
+
+.course-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.course-list li {
+  background: var(--raw-seinna);
+  color: var(--white);
+  font-size: 0.8rem;
+  padding: 4px 10px;
+  border-radius: 50px;
+  transition: var(--transition-1);
+}
+
+.course-list li:hover {
+  transform: translateY(-2px);
+}
+
+.edu-date {
+  color: var(--color-secondary);
+  font-size: 0.9rem;
+  white-space: nowrap;
+  padding-top: 3px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .section-title {
+    font-size: 1.75rem;
+  }
+
+  .education-content {
+    margin-bottom: 40px;
+  }
+
+  .education-card {
+    flex-direction: column;
+  }
+
+  .edu-date {
+    align-self: flex-end;
+    margin-top: -30px;
+  }
+
+  .course-list {
+    gap: 6px;
+  }
+}
+
+@media (max-width: 480px) {
+  .section-title {
+    font-size: 1.5rem;
+  }
+
+  .section-text {
+    font-size: 0.9rem;
+  }
+
+  .education-content {
+    margin-bottom: 30px;
+  }
+
+  .education-card {
+    padding: 20px;
+  }
+
+  .education-card .card-title {
+    font-size: 1rem;
+  }
+
+  .education-card .card-title strong {
+    font-size: 0.8rem;
+  }
+
+  .edu-details .grade,
+  .edu-date {
+    font-size: 0.8rem;
+  }
+
+  .course-list li {
+    font-size: 0.75rem;
+    padding: 3px 8px;
+  }
+}
+/*-----------------------------------*/
 /* PROJECT */
 /*-----------------------------------*/
 
