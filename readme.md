@@ -41,7 +41,7 @@ To view the portfolio locally, follow these steps:
 1. Clone the repository:
 
 ```bash
-git clone <repository-url>
+git clone https://github.com/Robin-2407/Robin-Sukhdeve-Portfolio.git
 ```
 
 2. Navigate to the project directory:
