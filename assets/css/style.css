@@ -1523,6 +1523,10 @@ textarea.input-field {
     transform: translateY(-50%) translateX(var(--trans-x));
   }
 
+  .codeforces {
+    // iwant to move the image
+  }
+
   .hero-social-link:is(:hover, :focus) .tooltip {
     --trans-x: 0;
     opacity: 1;
